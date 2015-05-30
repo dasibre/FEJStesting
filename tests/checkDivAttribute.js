@@ -4,4 +4,8 @@ describe('getDivAttribute', function() {
     it('Should be bar', function() {
         expect(d.getAttribute('foo')).toBe('bar');
     });
+
+    it('should not be bar', function() {
+        expect(d.getAttribute('foo')).toBe('Car');
+    })
 });
