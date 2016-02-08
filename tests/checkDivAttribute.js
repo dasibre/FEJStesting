@@ -6,6 +6,6 @@ describe('getDivAttribute', function() {
     });
 
     it('should not be bar', function() {
-        expect(d.getAttribute('foo')).toBe('Car');
+        expect(d.getAttribute('foo')).toBe('bar');
     })
 });
